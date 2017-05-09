@@ -1,0 +1,368 @@
+body {
+padding:0;
+margin:0;
+}
+input[type=text] {
+outline:none;
+}
+textarea {
+resize:none;
+}
+#container {
+overflow:hidden;
+padding:0;
+margin:0;
+}  
+header {
+width: 20%;
+color:white;
+font-family:Gill Sans MT;
+font-size: 48pt;
+float:left;
+margin: 0 0 0 1.25%;
+}
+header a {
+color:#0f70b7;
+}
+title {
+color: #ff0000;
+font-family:Arial;
+font-size:42pt;
+}
+#left {
+width:50%;
+padding-bottom:2%;
+overflow:hidden;
+margin-top:5.15%;
+float:left;
+}
+
+h1 {
+font-family: Myriad Pro;
+font-size: 10pt;
+font-weight: normal;
+color:black;
+margin-left:30%;
+}
+#left .posttitle, #thispost table h2  {
+font-family:Myriad Pro;
+font-size: 22pt;
+font-weight:normal;
+margin-left:0%;
+margin-top: 5%;
+text-decoration:none;
+color:black;
+}
+#left a:hover {
+text-decoration:underline;
+}
+h3 {
+font-family:Myriad Pro;
+font-size: 22pt;
+font-weight:normal;
+margin-left:10%;
+}
+
+h4 {
+font-family: Segoe UI;
+font-size:10pt;
+font-weight:normal;
+margin-left:10%;
+margin-top:-3%;
+color:grey;
+}
+
+h5 {
+font-family: Myriad Pro;
+font-size: 16pt;
+font-weight:normal;
+margin-left:25%;
+margin-top:8%;
+
+
+}
+
+p{
+font-family:Segoe UI;
+font-size: 12pt;
+width:80%;
+margin-left:10%;
+}
+hr {
+margin-left:10%;
+}
+#left button {
+background:none;
+border:none;
+font-family: Myriad Pro;
+font-size: 12pt;
+cursor:pointer;
+margin:5% 0 0 5%;
+color:#1068d8;
+}
+#left button:hover{
+text-decoration:underline;
+}
+#left table, #thispost table {
+width:90%;
+margin:0 auto;
+border-bottom:1px solid #aeaeae; 
+padding-bottom:1%;
+}
+#left table img, #thispost table img {
+width:95%;
+margin:2.5% 0 0 0%;
+height:auto;
+border:1px solid #aeaeae;
+}
+#left table h2 {
+margin:0;
+font-family: Myriad Pro;
+}
+#left table h3, #thispost table h3  {
+margin:0 0 0 0;
+font-family: Segoe UI;
+font-size:1em;
+color:#919191;
+text-transform:uppercase;
+}
+
+.review {
+display:block;
+margin:0.5% 0 0 5%;
+font-family: Segoe UI;
+font-size:1em;
+color:#1068d8;
+cursor:pointer;
+}
+.pros{
+color:green;
+font-weight:normal;
+font-family: Segoe UI;
+font-size:1em;
+}
+.cons{
+margin:0;
+color:red;
+font-weight:normal;
+font-family: Segoe UI;
+font-size:1em;
+}
+.showreview h2 {
+font-family: Segoe UI;
+font-size:1em;
+font-weight:normal;
+margin-bottom:0;
+}
+
+.showreview {
+width:90%;
+margin:0 auto;
+
+}
+.rating {
+margin-left:50%;
+font-family:Segoe UI;
+font-size:50pt;
+color:#0494D1;
+
+}
+.review2{
+font-family:Segoe UI;
+text-align:justify;
+text-decoration:none;
+}
+#review {
+display:none;
+width:76%;
+margin:2% 0 0 12.5%;
+}
+
+#review input[type=text] {
+font-family:Segoe UI;
+color: black;
+width:80%;
+padding:1%;
+margin-left:10%;
+}
+#review input[type=range] {
+font-family:Segoe UI;
+color: black;
+width:80%;
+padding:1%;
+margin-left:10%;
+}
+#review textarea {
+font-family:Segoe UI;
+color: black;
+width:80.5%;
+padding:1%;
+margin: 0 0 0 10%;
+}
+#review label {
+display:block;
+font-family:Segoe UI;
+color: red;
+width:80.5%;
+margin:3% 0 0 10%;
+
+}
+.content {
+overflow:none;
+margin-left:0;
+margin-top:1.5%;
+width:90%;
+font-family: Segoe UI;
+text-align:justify;
+font-size:1em;
+border:none;
+background:white;
+color:black;
+}
+.readmore {
+font-size:1em;
+font-family:Segoe UI;
+color:#1068d8;
+
+}
+
+#right {
+width:50%;
+padding-bottom:2%;
+overflow:hidden;
+margin-top:5.15%;
+float:left;
+}
+#thispost {
+width:60%;
+margin:5% auto 0 auto;
+padding-bottom:2%;
+}
+#feedControl {
+margin-top : 30px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+font-size: 12px;
+color: #9CADD0;
+}
+
+#twitterreview{
+margin-left:15%;
+margin-top: 13.75%;
+}
+
+
+nav {
+	position:fixed;
+	z-index:2;
+	width:100%;
+	min-height:37px;
+	background-color:#000; 
+	margin:0;
+	float:left;
+	cursor:pointer;
+	font-family: Myriad Pro;
+	color: #ccc;
+	font-size: 18pt;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+nav ul li {
+
+border-right: 1px solid white;
+float:left;
+padding:0 1%;
+
+}
+nav ul li:nth-child(4n) {
+border-right:none;
+}
+
+nav ul li a {
+text-decoration:none;
+color:white;
+}
+.search {
+margin:-3.5% 0 0 75%;
+float:left;
+}
+.search input[type=text] {
+font-family:Myriad Pro, arial;
+border:none;
+margin:0;
+padding:1.6% 0 0 0;
+}
+.search #submit {
+background:white;
+border:none;
+margin:0 0 0 -5%;
+color:#aeaeae;
+}
+.login {
+float:right;
+margin:-3.5% 5% 0 0;
+color:white;
+text-decoration:none;
+}
+label {
+color: #DF0101;
+font-family:Segoe UI;
+font-size:12pt;
+}
+
+body {
+background-color: white;
+}
+
+#register {
+border:1px solid black;
+width: 50%;
+margin:10% auto;
+}
+
+#register h1 {
+margin-left:30%;
+}
+
+#register label{
+margin-left:30%;
+}
+
+#register input[type=text] {
+margin-left:30%;
+}
+
+#register input[type=email] {
+margin-left:30%;
+}
+
+#register input[type=password] {
+margin-left:30%;
+}
+
+footer {
+border-top:1px solid black;
+clear:both;
+width: 100%;
+padding:0.25% 0;
+}
+
+footer p {
+width: 50%;
+text-align::center;
+margin-left:40%;
+}
+
+#socialmedia {
+margin-left: 45%;
+}
+
+
+
+
+

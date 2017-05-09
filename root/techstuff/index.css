@@ -1,0 +1,330 @@
+body {
+padding:0;
+margin:0;
+}
+input[type=text] {
+outline:none;
+}
+#container {
+overflow:hidden;
+padding:0;
+margin:0;
+}  
+header {
+width: 20%;
+color:white;
+font-family:Gill Sans MT;
+font-size: 48pt;
+float:left;
+margin: 0 0 0 1.25%;
+}
+header a {
+color:#0f70b7;
+}
+title {
+color: #ff0000;
+font-family:Arial;
+font-size:42pt;
+}
+#left {
+width:50%;
+padding-bottom:2%;
+overflow:hidden;
+margin-top:5.15%;
+float:left;
+}
+#left button {
+background:none;
+border:none;
+font-family: Myriad Pro;
+font-size: 12pt;
+cursor:pointer;
+margin:5% 0 0 5%;
+color:#1068d8;
+}
+#left button:hover{
+text-decoration:underline;
+}
+h1 {
+font-family: Myriad Pro;
+font-size: 26pt;
+font-weight: normal;
+
+}
+h2 {
+font-family:Myriad Pro;
+font-size: 22pt;
+font-weight:normal;
+margin-left:10%;
+margin-top: 5%;
+}
+
+h3 {
+font-family:Myriad Pro;
+font-size: 22pt;
+font-weight:normal;
+margin-left:10%;
+}
+
+h4 {
+font-family: Segoe UI;
+font-size:10pt;
+font-weight:normal;
+margin-left:10%;
+margin-top:-3%;
+color:grey;
+}
+
+h5 {
+font-family: Myriad Pro;
+font-size: 20pt;
+font-weight:normal;
+margin:3% 0 9% 25%;
+
+
+}
+
+p{
+font-family:Segoe UI;
+font-size: 12pt;
+width:80%;
+margin-left:10%;
+}
+hr {
+margin-left:10%;
+}
+#left table {
+width:90%;
+margin:0 auto;
+border-bottom:1px solid #aeaeae; 
+padding-bottom:1%;
+}
+#left table img {
+width:95%;
+margin:2.5% 0 0 0%;
+height:auto;
+border:1px solid #aeaeae;
+}
+#left table h2 {
+margin:0 0 0 0%;
+font-family: Myriad Pro;
+}
+#left table h3 {
+	margin:0 0 0 0;
+	font-family: Segoe UI;
+	font-size:1em;
+	color:#919191;
+	text-transform:uppercase;
+}
+.morenews {
+	color:#1068d8;
+	font-family: Myriad Pro;
+font-size: 12pt;
+cursor:pointer;
+margin:5% 0 0 5%;
+text-decoration:none;
+}
+.morenews:hover {
+text-decoration:underline;
+}
+.content {
+display:block;
+margin-left:0;
+margin-top:1.5%;
+width:95%;
+font-family: Segoe UI;
+font-size:1em;
+}
+#right {
+width:50%;
+padding-bottom:2%;
+overflow:hidden;
+margin-top:5.15%;
+float:left;
+}
+#right table {
+width:90%;
+margin-left:2.5%;
+border:none;
+padding-bottom:1%;
+}
+#right iframe {
+border:1px solid #aeaeae;
+}
+.welcome {
+width:100%;
+text-align:right;
+margin:5% 0 0 -10%;
+}
+.welcome .clickforpost{
+background:none;
+border:none;
+font-family: Myriad Pro;
+font-size: 12pt;
+cursor:pointer;
+margin:0 0 0 34%;
+color:#1068d8;
+float:left;
+
+}
+iframe {
+margin-left: 25%;
+}
+
+.snapdragon{
+margin-top:2.5%;
+}
+
+.sony {
+margin-top:2.5%;
+}
+
+
+nav {
+	position:fixed;
+	z-index:2;
+	width:100%;
+	min-height:37px;
+	background-color:#000; 
+	margin:0;
+	float:left;
+	cursor:pointer;
+	font-family: Myriad Pro;
+	color: #ccc;
+	font-size: 18pt;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+nav ul li {
+
+border-right: 1px solid white;
+float:left;
+padding:0 1%;
+
+}
+nav ul li:nth-child(4n) {
+border-right:none;
+}
+
+nav ul li a {
+text-decoration:none;
+color:white;
+}
+.search {
+margin:-3.5% 0 0 75%;
+float:left;
+}
+.search input[type=text] {
+font-family:Myriad Pro, arial;
+border:none;
+margin:0;
+padding:1.6% 0 0 0;
+}
+.search #submit {
+background:white;
+border:none;
+margin:0 0 0 -5%;
+color:#aeaeae;
+}
+.login {
+float:right;
+margin:-3.5% 5% 0 0;
+color:white;
+text-decoration:none;
+}
+label {
+color: #DF0101;
+font-family:Segoe UI;
+font-size:12pt;
+}
+
+body {
+background-color: white;
+}
+
+#register {
+border:1px solid black;
+width: 50%;
+margin:10% auto;
+}
+
+#register h1 {
+margin-left:30%;
+}
+
+#register label{
+margin-left:30%;
+}
+
+#register input[type=text] {
+margin-left:30%;
+}
+
+#register input[type=email] {
+margin-left:30%;
+}
+
+#register input[type=password] {
+margin-left:30%;
+}
+
+#poll {
+width:56%;
+margin:3% 0 0 25%;
+padding:1% 0;
+font-family:Segoe UI;
+font-size:12pt;
+border:1px solid black;
+}
+#poll p {
+width:100%;
+text-align:center;
+margin:2% 0;
+}
+#poll input[type=radio] {
+margin:0 42.5% 0 5%;
+}
+#poll input[type=text] {
+width:56%;
+margin-left:12.5%;
+border:1px solid black;
+font-family:Segoe UI;
+font-size:12pt;
+padding-left:0.5%;
+}
+#poll input[type=submit] {
+background:white;
+border:1px solid black;
+font-family:Segoe UI;
+font-size:12pt;
+margin-left:1%;
+cursor:pointer;
+}
+.radio {
+text-align:right !important;
+}
+
+footer {
+border-top:1px solid black;
+clear:both;
+width: 100%;
+padding:0.25% 0;
+}
+
+footer p {
+width: 50%;
+text-align::center;
+margin-left:40%;
+}
+
+#socialmedia {
+margin-left: 45%;
+}
+
+
+
+
